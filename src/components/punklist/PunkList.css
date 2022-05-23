@@ -1,0 +1,4 @@
+.punkList{
+    display: flex;
+    overflow-x: auto;
+}

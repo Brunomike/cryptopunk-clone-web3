@@ -15,7 +15,7 @@ const CollectionCard = ({id,name,traits,image}) => {
       </div>
 
       <div className="priceContainer">
-        <img src={ethImg} className='ethImage' alt="Ethereum Image"/>
+        <img src={ethImg} className='ethImage' alt="Ethereum Logo"/>
         <div className="price">{traits[0]?.value}</div>
       </div>
       </div>

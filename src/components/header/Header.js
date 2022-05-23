@@ -9,11 +9,11 @@ const Header = () => {
     return (
         <div className='header'>
             <div className="logoContainer">
-                <img src={punkLogo} className="punkLogo" alt=""/>
+                <img src={punkLogo} className="punkLogo" alt="Website Logo"/>
             </div>
             <div className="searchBar">
                 <div className="searchIconContainer">
-                    <img src={searchLogo} alt="Search Icon"/>
+                    <img src={searchLogo} alt="Search Logo"/>
                 </div>
                 <input type="text" className="searchInput" placeholder='Collection, item or user ...'/>
             </div>
@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <div className="headerActions">
                 <div className="themeSwitchContainer">
-                    <img src={themeSwitchLogo} alt="Theme Switch Icon"/>
+                    <img src={themeSwitchLogo} alt="Theme Switch Logo"/>
                 </div>
                 <div className="loginBtn">
                     GET IN
